@@ -1,0 +1,22 @@
+{
+  "name": "beer-near-here",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyCulbreth/Beer-Near-Here.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyCulbreth/Beer-Near-Here/issues"
+  },
+  "homepage": "https://github.com/JohnnyCulbreth/Beer-Near-Here#readme"
+}

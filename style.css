@@ -1,0 +1,49 @@
+.wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+.bnh_logo {
+    width: 50vw;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+}
+  
+body p {
+    margin-top: 30px;
+}
+  
+.hidden {
+    display: none;
+}
+  
+a {
+    color: black;
+}
+  
+ol {
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+  
+form {
+    margin-top: 10px;
+    display: inline-block;
+}
+  
+#map {
+    height: 500px;
+    width: 100%;
+}
+  
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

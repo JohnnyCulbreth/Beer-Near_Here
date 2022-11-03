@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJgW0JwpC8icg0Up4cIh4ubLjBnI6jznc&callback=initMap"
+  defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Beer Near Here</title>
+</head>
+<body>
+
+    <header>
+        <div class ="wrapper">
+            <img src="images/beer2.gif" class ="bnh_logo" alt="Beer Near Here logo">
+        </div>
+    </header>
+
+    <main>
+        <form>
+          <label for="zip-code" class="hidden">Enter 5 digit ZIP code</label>
+          <input type="text" id="zip-code" minlength = "5" maxlength = "5" placeholder="5 digit ZIP code" autofocus>
+          <button type="submit">Find</button>
+        </form>
+        <p id="error-message"></p>
+        <p id="no-results"></p>
+        <div class="flex-container">
+            <ol id="results"></ol>
+          <div id="map" class="hidden"></div>
+        </div>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+</body>
+</html>
